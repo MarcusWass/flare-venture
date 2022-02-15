@@ -1,0 +1,21 @@
+.investementItemList {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+@media screen and (min-width: 700px) {
+    .investementItemList {
+        display: flex;
+        flex-direction: row;
+        padding-top: 0px;
+    }
+  }
+
+  .item {
+      border: 0px solid white;
+  }
+
+  .item:hover {
+    border: 2px solid black;
+}

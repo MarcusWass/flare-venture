@@ -1,0 +1,12 @@
+.textAreaWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 900px) {
+    .textAreaWrapper {
+        display: flex;
+        flex-direction: row;
+        padding-top: 0px;
+    }
+  }
