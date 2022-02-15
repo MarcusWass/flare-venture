@@ -16,7 +16,7 @@ export const MainPage = (props: any) => {
         <div style={{position:"absolute", zIndex:10, width:"100%"}}><TopNavigation/></div>
         
         <div style={{}}><ImageCarousel/></div>
-        <div style={{}}><InvestmentGalleryWrapper/></div>
+        <div style={{marginTop:'40px'}}><InvestmentGalleryWrapper/></div>
         {
                 showDetails ? 
                 <div style={{position:'absolute', top:"0px", width:"100%", height:"100%", display:"flex", flexDirection:"column", alignItems:'center'}}>
